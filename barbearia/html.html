@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1"/>
+    <meta name="description" content="Site para uma barbearia">
+    <meta name="keywords" content="HTML, CSS, JAVA SCRIPT">
+    <meta name="author" content="Ariel de Souza Venturini, Arthur Miguel da Silva de Miranda">
+    <link rel="shortcut icon" href="./img/icone.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Magrinho Barbearia</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>MAGRINHO BARBEARIA</h1>
+            <img src="./img/op1.png" alt="Logo" class="logo-esquerda">
+            <img src="./img/op1.png" alt="Logo" class="logo-direita">
+            <nav>
+                <ul>
+                    <li><a href="#inicio">PREÇOS / HORÁRIOS<a></li>
+                    <li><a href="#contatos">CONTATO / LOCAL</a></li>
+                </ul>
+            </nav>   
+        </div> 
+    </header>
+    <section class="content">
+        <div class="preços" id="inicio">
+            <div class="card">
+                <div class="card2">
+                    <h2>CABELO</h2>
+                    <p>R$ 35</p>
+                </div>
+                <div class="card2">
+                    <h2>BARBA</h2>
+                    <p>R$ 25</p>
+                </div>
+                <div class="card2">
+                    <h2>RASPAR</h2>
+                    <p>R$ 25</p>
+                </div>
+            </div>
+            <div class="card3">
+                <h1>Agendamento de Horários</h1>
+                <form id="agendamento">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" required>
+                    <label for="data">Data:</label>
+                    <input type="date" id="data" required>
+                    <label for="horario">Horário:</label>
+                    <select id="horario" required>
+                        <option value="">Selecione um horário</option>
+                        <option value="08:00">08:00</option>
+                        <option value="08:30">08:30</option>
+                        <option value="09:00">09:00</option>
+                        <option value="09:30">09:30</option>
+                        <option value="10:00">10:00</option>
+                        <option value="10:30">10:30</option>
+                        <option value="11:00">11:00</option>
+                        <option value="11:30">11:30</option>
+                        <option value="13:00">13:00</option>
+                        <option value="13:30">13:30</option>
+                        <option value="14:00">14:00</option>
+                        <option value="14:30">14:30</option>
+                        <option value="15:00">15:00</option>
+                        <option value="15:30">15:30</option>
+                        <option value="16:00">16:00</option>
+                        <option value="16:30">16:30</option>
+                        <option value="17:00">17:00</option>
+                        <option value="17:30">17:30</option>
+                        <option value="18:00">18:00</option>
+                    </select>
+                    <button id="agendar">Agendar</button>
+                </form>
+                <div id="agenda"></div>
+            </div>
+    </section>
+    <footer>
+        <section id="contatos">
+            <h1>CONTATOS</h1>
+            <div class="footer-info">
+                <p><strong><img src="./img/whatsapp.png" alt=""> <a href="https://wa.me/48998221713" target="_blank"> (48) 99822-1737</a></strong></p>
+                <p>E-mail: contatomagrinhobarbearia@gmail.com</p>
+                <p>&copy; 2024 Magrinho Barbearia; Endereço: Luiz Decol, 157 - Bairro Centro, Siderópolis-SC</p>
+            </div>
+    </footer>
+    <script src="java/java.js"></script>
+</body>
+</html>
